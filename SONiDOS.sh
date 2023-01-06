@@ -6,10 +6,11 @@
 
 
 #
-# Release 0.0.1
+# Release 0.0.2
 # This script is governed by the GPL Version 3 License
 # This script is made by Ignacio Garcia <yo@ignasi.com>
-# This script is originally located at:
+# The original version of this script is located at:
+# https://github.com/superlinuxero/SONiDOS
 #
 #
 # This is a script that will allow you to install the latest release
@@ -385,7 +386,7 @@ Name=Spotify
 GenericName=Music Player
 Comment=Spotify streaming music client
 Icon=spotify-client
-Exec=$INSTALL_DIRspotify/spotify.sh %U
+Exec=$INSTALL_DIR/spotify.sh %U
 Terminal=false
 Type=Application
 Categories=Audio;Music;Player;AudioVideo;
@@ -427,11 +428,11 @@ echo
 # this script will create a link to launch spotify from
 # your command line
 
-[ -d $HOME/.local/bin ] && { ln -sf $INSTALL_DIR/spotify.sh $HOME/.local/bin/spotify ; echo -e "Finally a symkink in $HOME/.local/bin has been created.\nType spotify to run it from a console window" ; }
+[ -d $HOME/.local/bin ] && { ln -sf $INSTALL_DIR/spotify.sh $HOME/.local/bin/spotify ; echo -e "Finally, a symkink in $HOME/.local/bin has been created.\nType spotify to run it from a console window" ; }
 
 echo
 echo If there is no entry appearing in your Applications menu
-echo logout and login and try again
+echo please log-out and log-in back, and try again.
 echo
 echo Bye now!
 echo
