@@ -6,7 +6,7 @@
 
 
 #
-# Release 0.0.2
+# Release 0.0.3
 # This script is governed by the GPL Version 3 License
 # This script is made by Ignacio Garcia <yo@ignasi.com>
 # The original version of this script is located at:
@@ -365,7 +365,7 @@ echo
 
 cat <<EOF > spotify.sh
 #!/bin/bash
-PROGRAM_DIR="\`dirname "\$0"\`"
+PROGRAM_DIR="$INSTALL_DIR"
 export LD_LIBRARY_PATH="\$PROGRAM_DIR"
 "\$PROGRAM_DIR/spotify" "\$@"
 EOF
