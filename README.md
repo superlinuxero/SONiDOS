@@ -6,6 +6,9 @@ My primary laptop, a 2005 IBM ThinkPad, runs only i386 code. After installing LM
 
 This script will not modify your Linux system since all files are placed inside your home directory. In fact, the script will complain if you run it as root.
 
+Although I've tested it in Debian, Spotify should run on any other i386 Linux distribution. It even runs on Ubuntu 22.04 (amd64 with default basic i386 support). Please let me know if you encounter problems.
+
+
  **WHAT THIS SCRIPT DOES:**
  
  1.- Creates a temporary directory (which will be deleted after install)
