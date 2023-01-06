@@ -19,8 +19,8 @@ Although I've tested it in Debian, this installation of Spotify should run on an
      needed for Spotify to run
  
  4.- Creates a wrapper named spotify.sh which will load the program and links
-     all shared libraries placed before in there. Also, a symlink to your
-     $HOME/.local/bin directory, if exists, will be created
+     all shared libraries placed before in there. Also, a symlink, named spotify,
+     to your $HOME/.local/bin directory, if exists, will be created
  
  5.- Creates a new .desktop file and places it in $HOME/.local/share/applications/
  
