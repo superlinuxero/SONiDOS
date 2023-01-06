@@ -6,7 +6,7 @@
 
 
 #
-# Release 0.0.3
+# Release 0.0.4
 # This script is governed by the GPL Version 3 License
 # This script is made by Ignacio Garcia <yo@ignasi.com>
 # The original version of this script is located at:
@@ -96,6 +96,10 @@ command -v ar >/dev/null 2>&1 || { echo -e "command ar not found (Please install
 [ -d "$INSTALL_DIR" ] && { echo -e "It seems you already have Spotify installed in $INSTALL_DIR\nAborting.\n"; exit 1; }
 [ -d "$TEMP_DIR" ] && { echo -e "Temporary Working Directory $TEMP_DIR exists. Aborting.\n"; exit 1; }
 [ -f "$DESKTOP_FILE" ] && { echo -e "Looks like you already have a Spotify entry in your\nPersonal Applicattions Menu. Aborting.\n"; exit 1; }
+
+# In case they do not exist, we'll mkdir our directory structure
+
+mkdir -p "$HOME/.local/share/applications/
 
 
 
