@@ -6,7 +6,7 @@ My primary laptop, a 2005 IBM ThinkPad, run only i386 code. After installing LMD
 
 This script will not modify your Linux system since all files are placed inside your home directory. In fact, the script will complain if you run it as root.
 
- WHAT THIS SCRIPT DOES:
+ **WHAT THIS SCRIPT DOES:**
  
  1.- Creates a temporary directory (which will be deleted after install)
  
@@ -28,14 +28,14 @@ This script will not modify your Linux system since all files are placed inside 
  In some casses, a log-out and log-in may be necessary to see the entry in
  the Applications menu.
  
- HOW TO RUN IT:
+ **HOW TO RUN IT:**
  
  You can either download the script from this page and run it, or from your terminal window, using these commands:
  
- wget -q https://raw.githubusercontent.com/superlinuxero/SONiDOS/main/SONiDOS.sh
+     wget -q https://raw.githubusercontent.com/superlinuxero/SONiDOS/main/SONiDOS.sh
  
- bash SONiDOS.sh
+     bash SONiDOS.sh
  
- HOW TO UNINSTALL Spotify after running this script:
+ **HOW TO UNINSTALL Spotify after running this script:**
  
- rm -Rf $HOME/.local/bin/spotify $HOME/.local/share/applications/spotify.desktop $HOME/.local/share/spotify/
+     rm -Rf $HOME/.local/bin/spotify $HOME/.local/share/applications/spotify.desktop $HOME/.local/share/spotify/
