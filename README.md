@@ -1,4 +1,4 @@
-# SONiDOS: Spotify On Newest i386 DistrOS
+# SONiDOS.sh: Spotify On Newest i386 DistrOS
 
 A script to install Spotify 32 bits in modern i386 distros.
 
