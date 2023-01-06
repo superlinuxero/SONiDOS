@@ -2,7 +2,7 @@
 
 A script to install Spotify 32 bits in modern i386 distros.
 
-My primary laptop, a 2005 IBM ThinkPad, run only i386 code. After installing LMDE 5 and realizing that there is no more support in Flathub and AppImage for 32-bit software, knowing that the official deb file for installing Spotify using their repository, I've decided to create a script to download it, extract its contents, download libraries and put all files in a convenient directory into your home directory.
+My primary laptop, a 2005 IBM ThinkPad, runs only i386 code. After installing LMDE 5 and realizing that there is no more support in Flathub and AppImage for 32-bit software, knowing that the official deb file for installing Spotify using their repository will fail on dependecies, I decided to create a script to download it, extract its contents, download libraries and put all files in a convenient directory into your home directory.
 
 This script will not modify your Linux system since all files are placed inside your home directory. In fact, the script will complain if you run it as root.
 
