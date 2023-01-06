@@ -36,4 +36,6 @@ This script will not modify your Linux system since all files are placed inside 
  
  bash SONiDOS.sh
  
+ HOW TO UNINSTALL Spotify after running this script:
  
+ rm -Rf $HOME/.local/bin/spotify $HOME/.local/share/applications/spotify.desktop $HOME/.local/share/spotify/
