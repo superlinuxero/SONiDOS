@@ -33,6 +33,7 @@ This script will not modify your Linux system since all files are placed inside 
  You can either download the script from this page and run it, or from your terminal window, using these commands:
  
  wget -q https://raw.githubusercontent.com/superlinuxero/SONiDOS/main/SONiDOS.sh
+ 
  bash SONiDOS.sh
  
  
