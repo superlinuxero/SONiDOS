@@ -28,7 +28,7 @@ This script will not modify your Linux system since all files are placed inside 
  In some casses, a log-out and log-in may be necessary to see the entry in
  the Applications menu.
  
- RUN
+ HOW TO RUN IT:
  
  You can either download the script from this page and run it, or from your terminal window, using these commands:
  
