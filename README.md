@@ -1,5 +1,7 @@
 # SONiDOS.sh: Spotify On Newest i386 DistrOS
 
+**This script does not work anymore**
+
 A script to install Spotify 32 bits in modern i386 distros.
 
 My primary laptop, a 2005 IBM ThinkPad, runs only i386 code. After installing LMDE 5 and realizing that there is no more support in Flathub and AppImage for 32-bit software, knowing that the official deb file for installing Spotify using their repository will fail on dependecies, I decided to create a script to download Spotify, extract its contents, download extra libraries and put all files in a convenient directory into your home folder ready to be run.
